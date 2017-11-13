@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_button_layout"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission 1"
+        android:id="@+id/bt_mission1"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission 2"
+        android:id="@+id/bt_mission2"
+        android:layout_toRightOf="@id/bt_mission1"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission 3"
+        android:layout_below="@id/bt_mission1"
+        android:id="@+id/bt_mission3"/>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission 4"
+        android:layout_toRightOf="@id/bt_mission3"
+        android:layout_below="@id/bt_mission1"
+        android:id="@+id/bt_mission4"
+        />
+</RelativeLayout>
